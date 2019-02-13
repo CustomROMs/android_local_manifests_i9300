@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="omnirom"
+           review="gerrit.omnirom.org"
+           fetch="https://github.com/omnirom" />
+
+  <remote  name="bb"
+           fetch="https://bitbucket.org/" />
+
+  <remote  name="substratum"
+           fetch="https://github.com/"
+           review="http://substratum.review" />
+
+  <remote  name="chrono"
+           fetch="https://github.com/ChronoMonochrome"
+           revision="refs/heads/master" />
+
+  <!-- Infrastructure -->
+  <remove-project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
+  <remove-project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
+  <remove-project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
+  <remove-project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
+  <remove-project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
+  <remove-project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
+  <remove-project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
+  <remove-project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
+
+  <!-- Tools -->
+  <remove-project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
+  <remove-project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
+
+
+  <project path="hardware/samsung" name="CustomROMs/android_hardware_samsung" revision="lineage-15.1" />
+  <project path="kernel/samsung/smdk4412" name="ChronoMonochrome/android_kernel_samsung_smdk4412" revision="master" clone-depth="1" />
+  <project path="device/samsung/smdk4412-common" name="CustomROMs/android_device_samsung_smdk4412-common" revision="lineage-15.1" />
+  <project path="device/samsung/i9300" name="CustomROMs/android_device_samsung_i9300" revision="lineage-15.1" />
+  <project path="vendor/samsung/smdk4412-common" name="CustomROMs/android_vendor_samsung_smdk4412-common" revision="lineage-15.1" />
+  <project path="vendor/samsung/i9300" name="CustomROMs/android_vendor_samsung_i9300" revision="lineage-15.1" />
+</manifest>
