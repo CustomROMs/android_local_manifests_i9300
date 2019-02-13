@@ -1,4 +1,3 @@
-bionic cherry-pick 77afab603
 system/core cherry-pick 26c31b3e4
 frameworks/base cherry-pick 8d0e9b7cc00 a3adb1d8de9 af0d480a3cb a776dc98a88
 packages/apps/Settings cherry-pick 4f358ea5a3 c44de5b646
