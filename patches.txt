@@ -1,1 +1,3 @@
+kernel/samsung/smdk4412 merge FETCH_HEAD
 system/sepolicy cherry-pick a1d8b3ef fc1f2fe4
+system/core merge FETCH_HEAD

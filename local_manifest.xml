@@ -32,6 +32,11 @@
   <!-- Toolchains --> 
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.4" name="CustomROMs/android_prebuilts_gcc_linux-x86_arm_arm-eabi-7.4" revision="lineage-15.1" />
 
+  <!-- Recovery -->
+  <remove-project path="bootable/recovery" name="LineageOS/android_bootable_recovery" />
+  <project path="bootable/recovery" name="OmniROM/android_bootable_recovery" revision="android-8.1" />
+  <project path="external/busybox" name="OmniROM/android_external_busybox" revision="android-8.1" />
+
   <!-- Device specific -->
   <project path="hardware/samsung" name="CustomROMs/android_hardware_samsung" revision="lineage-15.1" />
   <project path="kernel/samsung/smdk4412" name="ChronoMonochrome/android_kernel_samsung_smdk4412" revision="master" clone-depth="1" />
