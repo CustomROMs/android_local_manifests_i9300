@@ -29,7 +29,10 @@
   <remove-project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
   <remove-project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
 
+  <!-- Toolchains --> 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-7.4" name="CustomROMs/android_prebuilts_gcc_linux-x86_arm_arm-eabi-7.4" revision="lineage-15.1" />
 
+  <!-- Device specific -->
   <project path="hardware/samsung" name="CustomROMs/android_hardware_samsung" revision="lineage-15.1" />
   <project path="kernel/samsung/smdk4412" name="ChronoMonochrome/android_kernel_samsung_smdk4412" revision="master" clone-depth="1" />
   <project path="device/samsung/smdk4412-common" name="CustomROMs/android_device_samsung_smdk4412-common" revision="lineage-15.1" />
