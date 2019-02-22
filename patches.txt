@@ -1,1 +1,2 @@
-system/sepolicy cherry-pick a1d8b3ef fc1f2fe4
+frameworks/base merge FETCH_HEAD
+system/vold merge FETCH_HEAD

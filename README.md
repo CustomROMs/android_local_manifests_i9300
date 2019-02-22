@@ -5,13 +5,13 @@ Getting started
 ---------------
 
 ```
-1. mkdir -p LOS15 && cd LOS15
+1. mkdir -p LOS16 && cd LOS16
 
 2. Initialize your local repository using the LineageOS trees with a command
-  repo init -u git://github.com/LineageOS/android.git -b lineage-15.1
+  repo init -u git://github.com/LineageOS/android.git -b lineage-16.0
   
 3. Clone this repo:
-  git clone https://github.com/CustomROMs/android_local_manifests_i9300 -b lineage-15.1 
+  git clone https://github.com/CustomROMs/android_local_manifests_i9300 -b lineage-16.0 
 
 4. Copy local manifest (local_manifest.xml)
   mkdir -p .repo/local_manifests
