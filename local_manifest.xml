@@ -31,7 +31,7 @@
 
 
   <project path="hardware/samsung" name="CustomROMs/android_hardware_samsung" revision="lineage-16.0" />
-  <project path="kernel/samsung/smdk4412" name="ChronoMonochrome/android_kernel_samsung_smdk4412" revision="master" clone-depth="1" />
+  <project path="kernel/samsung/smdk4412" name="ChronoMonochrome/android_kernel_samsung_smdk4412" revision="lineage-16.0" clone-depth="1" />
   <project path="device/samsung/smdk4412-common" name="CustomROMs/android_device_samsung_smdk4412-common" revision="lineage-16.0" />
   <project path="device/samsung/i9300" name="CustomROMs/android_device_samsung_i9300" revision="lineage-16.0" />
   <project path="vendor/samsung/smdk4412-common" name="CustomROMs/android_vendor_samsung_smdk4412-common" revision="lineage-16.0" />
