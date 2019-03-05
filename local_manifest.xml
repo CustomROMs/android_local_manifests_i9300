@@ -15,6 +15,16 @@
            fetch="https://github.com/ChronoMonochrome"
            revision="refs/heads/master" />
 
+  <remove-project name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8084" />
+  <remove-project name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-16.0-caf" />
+  <remove-project name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8084" />
+  <remove-project name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
+  <remove-project name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-16.0-caf-8084" />
+  <remove-project name="LineageOS/android_hardware_qcom_power" groups="qcom,pdk-qcom" />
+  <remove-project name="LineageOS/android_hardware_qcom_thermal" groups="qcom,pdk-qcom" />
+  <remove-project name="LineageOS/android_hardware_qcom_vr" groups="qcom,pdk-qcom" />
+  <remove-project name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-16.0-caf" />
+
   <!-- Infrastructure -->
   <remove-project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
   <remove-project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
