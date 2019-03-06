@@ -1,2 +1,1 @@
-frameworks/base merge FETCH_HEAD
 system/vold merge FETCH_HEAD
