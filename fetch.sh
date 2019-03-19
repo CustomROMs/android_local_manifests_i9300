@@ -13,8 +13,8 @@ fetch() {
 		proj=$(echo $line | cut -d " " -f1)
 		echo -e $CL_BLU"Fetching patches for $proj"$CL_RST
 		echo
-		echo "git -C $ANDROID_BUILD_TOP/$proj fetch https://github.com/CustomROMS/$(path2name $proj) lineage-15.1"
-		git -C $ANDROID_BUILD_TOP/$proj fetch https://github.com/CustomROMS/$(path2name $proj) lineage-15.1
+		echo "git -C $ANDROID_BUILD_TOP/$proj fetch https://github.com/CustomROMS/$(path2name $proj) lineage-16.0"
+		git -C $ANDROID_BUILD_TOP/$proj fetch https://github.com/CustomROMS/$(path2name $proj) lineage-16.0
 		echo ""; echo "";
 	done < $ANDROID_BUILD_TOP/android_local_manifests_i9300/patches.txt
 }
