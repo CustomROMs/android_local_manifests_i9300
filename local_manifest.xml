@@ -1,46 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="omnirom"
-           review="gerrit.omnirom.org"
-           fetch="https://github.com/omnirom" />
+  <remote fetch="https://github.com/omnirom" name="omnirom" review="gerrit.omnirom.org" />
+  <remote fetch="https://bitbucket.org/" name="bb" />
+  <remote fetch="https://github.com/" name="substratum" review="http://substratum.review" />
 
-  <remote  name="bb"
-           fetch="https://bitbucket.org/" />
+  <remove-project groups="qcom,qcom_audio,pdk-qcom" name="LineageOS/android_hardware_qcom_audio" revision="lineage-16.0-caf-8084" />
+  <remove-project groups="qcom,pdk-qcom" name="LineageOS/android_hardware_qcom_bt" revision="lineage-16.0-caf" />
+  <remove-project groups="pdk-qcom,qcom,qcom_display" name="LineageOS/android_hardware_qcom_display" revision="lineage-16.0-caf-8084" />
+  <remove-project groups="qcom,qcom_fm" name="LineageOS/android_hardware_qcom_fm" />
+  <remove-project groups="qcom,pdk-qcom" name="LineageOS/android_hardware_qcom_media" revision="lineage-16.0-caf-8084" />
+  <remove-project groups="qcom,pdk-qcom" name="LineageOS/android_hardware_qcom_power" />
+  <remove-project groups="qcom,pdk-qcom" name="LineageOS/android_hardware_qcom_thermal" />
+  <remove-project groups="qcom,pdk-qcom" name="LineageOS/android_hardware_qcom_vr" />
+  <remove-project groups="qcom_wlan,pdk-qcom" name="LineageOS/android_hardware_qcom_wlan" revision="lineage-16.0-caf" />
+  <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
+  <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-16.0" />
 
-  <remote  name="substratum"
-           fetch="https://github.com/"
-           review="http://substratum.review" />
+  <project name="CustomROMs/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" revision="lineage-16.0" />
+  <project name="CustomROMs/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" revision="lineage-16.0" />
+  <project name="CustomROMs/android_device_samsung_i9300" path="device/samsung/i9300" revision="lineage-16.0" />
+  <project name="CustomROMs/android_device_samsung_t0lte" path="device/samsung/t0lte" revision="lineage-16.0" />
+  <project name="CustomROMs/android_hardware_samsung" path="hardware/samsung" revision="lineage-16.0" />
+  <project clone-depth="1" name="ChronoMonochrome/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" revision="lineage-16.0-i9100-rebase" />
 
-  <remote  name="chrono"
-           fetch="https://github.com/ChronoMonochrome"
-           revision="refs/heads/master" />
-
-  <remove-project name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-16.0-caf-8084" />
-  <remove-project name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk-qcom" revision="lineage-16.0-caf" />
-  <remove-project name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-16.0-caf-8084" />
-  <remove-project name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
-  <remove-project name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-16.0-caf-8084" />
-  <remove-project name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk-qcom" revision="lineage-16.0-caf" />
-
-  <!-- Infrastructure -->
-  <remove-project path="lineage/ansible" name="LineageOS/ansible" groups="infra" revision="master" />
-  <remove-project path="lineage/crowdin" name="LineageOS/cm_crowdin" groups="infra" revision="master" />
-  <remove-project path="lineage/cve" name="LineageOS/cve_tracker" groups="infra" revision="master" />
-  <remove-project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
-  <remove-project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
-  <remove-project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
-  <remove-project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
-  <remove-project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
-
-  <!-- Tools -->
-  <remove-project path="lineage/contributors-cloud-generator" name="LineageOS/contributors-cloud-generator" groups="tools" revision="master" />
-  <remove-project path="lineage/scripts" name="LineageOS/scripts" groups="tools" revision="master" />
-
-
-  <project path="hardware/samsung" name="CustomROMs/android_hardware_samsung" revision="lineage-16.0" />
-  <project path="kernel/samsung/smdk4412" name="ChronoMonochrome/android_kernel_samsung_smdk4412" revision="lineage-16.0" clone-depth="1" />
-  <project path="device/samsung/smdk4412-common" name="CustomROMs/android_device_samsung_smdk4412-common" revision="lineage-16.0" />
-  <project path="device/samsung/i9300" name="CustomROMs/android_device_samsung_i9300" revision="lineage-16.0" />
-  <project path="vendor/samsung/smdk4412-common" name="CustomROMs/android_vendor_samsung_smdk4412-common" revision="lineage-16.0" />
-  <project path="vendor/samsung/i9300" name="CustomROMs/android_vendor_samsung_i9300" revision="lineage-16.0" />
+  <project clone-depth="1" path="vendor/samsung" name="CustomROMs/android_vendor_samsung" revision="lineage-16.0" />
 </manifest>
