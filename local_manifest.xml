@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://github.com/omnirom" name="omnirom" review="gerrit.omnirom.org" />
-  <remote fetch="https://bitbucket.org/" name="bb" />
-  <remote fetch="https://github.com/" name="substratum" review="http://substratum.review" />
-
   <remove-project groups="qcom,qcom_audio,pdk-qcom" name="LineageOS/android_hardware_qcom_audio" revision="lineage-16.0-caf-8084" />
   <remove-project groups="qcom,pdk-qcom" name="LineageOS/android_hardware_qcom_bt" revision="lineage-16.0-caf" />
   <remove-project groups="pdk-qcom,qcom,qcom_display" name="LineageOS/android_hardware_qcom_display" revision="lineage-16.0-caf-8084" />
@@ -13,9 +9,11 @@
   <remove-project groups="qcom,pdk-qcom" name="LineageOS/android_hardware_qcom_thermal" />
   <remove-project groups="qcom,pdk-qcom" name="LineageOS/android_hardware_qcom_vr" />
   <remove-project groups="qcom_wlan,pdk-qcom" name="LineageOS/android_hardware_qcom_wlan" revision="lineage-16.0-caf" />
+
   <project name="LineageOS/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
   <project name="LineageOS/android_packages_resources_devicesettings" path="packages/resources/devicesettings" revision="lineage-16.0" />
 
+  <project name="CustomROMs/android_local_manifests_i9300" path="android_local_manifests_i9300" revision="lineage-16.0" />
   <project name="CustomROMs/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" revision="lineage-16.0" />
   <project name="CustomROMs/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" revision="lineage-16.0" />
   <project name="CustomROMs/android_device_samsung_i9300" path="device/samsung/i9300" revision="lineage-16.0" />
