@@ -17,6 +17,8 @@
   <project name="CustomROMs/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" revision="lineage-16.0" />
   <project name="CustomROMs/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" revision="lineage-16.0" />
   <project name="CustomROMs/android_device_samsung_i9300" path="device/samsung/i9300" revision="lineage-16.0" />
+  <project name="CustomROMs/android_device_samsung_i9305" path="device/samsung/i9305" revision="lineage-16.0" />
+  <project name="CustomROMs/android_device_samsung_n7100" path="device/samsung/n7100" revision="lineage-16.0" />
   <project name="CustomROMs/android_device_samsung_t0lte" path="device/samsung/t0lte" revision="lineage-16.0" />
   <project name="CustomROMs/android_hardware_samsung" path="hardware/samsung" revision="lineage-16.0" />
   <project clone-depth="1" name="ChronoMonochrome/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" revision="lineage-16.0-i9100-rebase" />
