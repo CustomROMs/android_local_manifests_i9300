@@ -1,5 +1,7 @@
 bionic cherry-pick bfdbce73b c0ed61114
 frameworks/base cherry-pick 32f59b27f18 84e5dc72572 5ac519a787a
 frameworks/opt/telephony cherry-pick 0e758d537 801956d04
+hardware/interfaces cherry-pick 290e479d8
 system/core cherry-pick 5355cba5b
 system/libhwbinder cherry-pick 7e5174e
+system/libhidl cherry-pick c441781f4
