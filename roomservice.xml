@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="chrono"
+           fetch="https://github.com/ChronoMonochrome"
+           revision="refs/heads/master" />
+
+  <project path="hardware/samsung" name="rINanDO/android_hardware_samsung" remote="github" revision="lineage-18.1" />
+  <project path="kernel/samsung/smdk4412" name="rINanDO/android_kernel_samsung_smdk4412" remote="github" revision="lineage-18.1" clone-depth="1" />
+  <project path="device/samsung/smdk4412-common" name="rINanDO/android_device_samsung_smdk4412-common" remote="github" revision="lineage-18.1" />
+  <project path="device/samsung/i9300" name="rINanDO/android_device_samsung_i9300" remote="github" revision="lineage-18.1" />
+  <project path="vendor/samsung" name="rINanDO/proprietary_vendor_samsung" remote="github" revision="lineage-18.1" />
+</manifest>

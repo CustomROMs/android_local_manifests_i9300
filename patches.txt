@@ -1,7 +1,8 @@
-bionic cherry-pick bfdbce73b c0ed61114
-frameworks/base cherry-pick 32f59b27f18 84e5dc72572 5ac519a787a
-frameworks/opt/telephony cherry-pick 0e758d537 801956d04
-hardware/interfaces cherry-pick 290e479d8
-system/core cherry-pick 5355cba5b
-system/libhwbinder cherry-pick 7e5174e
-system/libhidl cherry-pick c441781f4
+bionic cherry-pick b430de446dc0d8347265b4fdbff5fdff014c72be d64305e0196f4970dc3100f261a3c6337fbb1f9d
+build/make cherry-pick 6d5b0d8488fb7f2f779c2c656450d85a9b684cfd
+build/soong cherry-pick be4e75a93511bb8f00240b63975e94b8a300641f f889c0ff85c0cf013d0c1284240f343a776c8ff9 44d6cee695075245679eae13624ae0670eacae7b
+external/boringssl cherry-pick c86aeadeea76c73a201753ce5466f8bbfbb25825
+hardware/lineage/interfaces cherry-pick ab3917acdfed45b61fef04d2ec35369fcd6e8659
+packages/apps/PermissionController cherry-pick 91dcdd96b346d335255f16c1e04801e8545c4bfe
+system/core cherry-pick 2205142ac9dfe880d3245db137557a32f85797f7
+system/libhidl cherry-pick 01b22688bf26d705fdb2bff9a7727214d4b5ab80
